@@ -1,4 +1,4 @@
-<!-- Failed to upload "Screen Recording 2025-06-27 221734.mp4" --># React + Vite
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
