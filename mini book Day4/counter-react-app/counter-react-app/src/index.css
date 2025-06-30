@@ -1,0 +1,12 @@
+
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  height: 30px;
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  background: rgb(8, 8, 8);
+}
