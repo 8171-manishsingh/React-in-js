@@ -1,0 +1,36 @@
+.counter-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.counter-value {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #667eea;
+  line-height: 1;
+}
+
+.counter-actions {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.counter-custom {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.counter-custom .input {
+  flex: 1;
+}
+
