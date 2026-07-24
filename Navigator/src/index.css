@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sidebar-bg: #1e1e1e;
+  --sidebar-text: #cccccc;
+  --sidebar-hover: #2a2d2e;
+  --sidebar-active: #37373d;
+  --sidebar-width: 280px;
+  --editor-bg: #1e1e1e;
+  --editor-text: #d4d4d4;
+  --header-bg: #323233;
+  --header-text: #ffffff;
+  --border-color: #3c3c3c;
+  --folder-icon: #dcb67a;
+  --file-icon: #8dc6f4;
+  --js-icon: #f7df1e;
+  --css-icon: #2965f1;
+  --html-icon: #e34f26;
+  --json-icon: #5ec9e8;
+  --md-icon: #42a5f5;
+  --keyword: #c586c0;
+  --string: #ce9178;
+  --number: #b5cea8;
+  --comment: #6a9955;
+  --function: #dcdcaa;
+  --property: #9cdcfe;
+  --tag: #569cd6;
+  --attr: #9cdcfe;
+  --value: #ce9178;
+  --punctuation: #d4d4d4;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #252526;
+  color: var(--sidebar-text);
+  overflow: hidden;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  min-height: auto;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
